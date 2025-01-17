@@ -18,8 +18,8 @@ Ces massues sont composée de :
 - la lumière est générée par un ruban LED de 120 LED RGB, plié en 4 pour faire le tour de l'axe
 - une batterie Li-ion de 3.7v 3000mah permet d'avoir une heure d'autonomie et de la recharger
 - un petit circuit alimenté par la batterie fourni une alimentation constante de 5 V car la batterie a une tension variant entre 2.5v et 4.2v
-- une petite carte électronique ESP32 permet de piloter les LED et de pouvoir être controllé par Wifi, ou en touchant la vis supperieur de la massue
-
+- une petite carte électronique ESP32 permet de piloter les LED et de pouvoir être controlé par Wifi, ou en touchant la vis supperieur de la massue
+- la vis en haut de la massue permet de changer de style lorsqu'elle est touchée.
 
 ![001.jpg](img/001.jpg)
 
@@ -80,28 +80,28 @@ Au total
 
 ### Outillage
 
-- Scie à méteau/dremelle
+- Scie à métaux/dremelle
 - baton de colle à chaud
 - TODO à compléter
 
 ### L'assemblage (version alu+bois)
 
-- Découper 50 cm de la cornière alu 10x10
-- découper 15 cm et 28.5 cm dans le tasseau 9x9
-- sur le morceau de 15cm, faire un bizeau entre 5 et 10 cm
+- Découper 50 cm de la cornière alu 10x10 avec une scie a métaux (par ex)
+- découper 15 cm et 28.5 cm dans le tasseau 9x9 TODO : mettre les dimensions d'origine
+- sur le morceau de 15cm, faire un biseau entre 5 et 10 cm
 - coller les tasseaux sur l'alu en plaçant de petits morceaux de baton de colle à chaud sur l'alu et chauffer au décapeur thermique pour que la colle fonde sur l'alu.
-Les tasseaux doivent être sur les extrémités, la batterie 18650 (=18 mm de diamètre 65 mm de haut) doit rentrer entre les 2 morceaux
+Les tasseaux doivent être sur les extrémités, la batterie 18650 (=18 mm de diamètre 65 mm de haut) doit rentrer entre les 2 morceaux.
 - fixer la batterie avec de la gaine thermique
 - TODO :
-  - fixer prise de recharge
-  - fixer interrupteur
+  - fixer prise de recharge avec de la gaine thermique
+  - fixer interrupteur avec de la gaine thermique
   - souder le boost 5v
   - souder la carte ESP32
   - fixer les cables
-  - scotcher le ruban led
+  - scotcher le ruban led ces rubans ont un scotch double-face déjà en place
   - souder les fils au ruban led
-  - faire le manche
-  - ajouter bulbe
+  - faire le  contour du manche
+  - couper et ajouter le bulbe
   - ajouter la base (les 2 coins de table)
 
 
@@ -114,7 +114,7 @@ Les tasseaux doivent être sur les extrémités, la batterie 18650 (=18 mm de di
 ![040.jpg](img/040.jpg)
 
 
-## Bulbe fibré
+## Bulbe fibré (optionnel)
 
 
 
@@ -126,7 +126,27 @@ Les tasseaux doivent être sur les extrémités, la batterie 18650 (=18 mm de di
 
 TODO
 
+### l'installation en USB
+
 https://install.wled.me/
+
+#### le wifi
+
+Pour contrôler les massues depuis un smartphone ou un PC,
+il faut définir un réseau Wifi auquel les massues essayeront de se connecter.
+
+Ce réseau wifi sera aussi utile si l'on souhaite que les masques se synchronise entre elle. 
+
+
+
+
+### la configuration
+
+#### les segments
+
+#### les presets
+
+### l' utilisation
 
 ## Les problèmes rencontrés
 
